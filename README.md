@@ -21,6 +21,24 @@ Aplikasi web sederhana untuk memanajemen data pemain sepak bola muda (Wonderkids
 3. Import file database (`database.sql`) atau jalankan query SQL pembuatan tabel.
 4. Buka browser dan akses `localhost/scout-wonder`.
 
+## Struktur Proyek
+Berikut adalah susunan file dalam repository ini:
+
+```text
+/simple-scout
+│
+├── /uploads              # Folder untuk menyimpan file foto pemain yang di-upload
+├── config.php            # File konfigurasi koneksi ke database MySQL
+├── create.php            # Halaman Form Tambah Pemain Baru (Create)
+├── database.sql          # File database SQL (untuk di-import ke PHPMyAdmin)
+├── delete.php            # Script logika untuk menghapus pemain (Delete)
+├── detail.php            # Halaman Detail Profil Pemain & Radar Chart
+├── edit.php              # Halaman Form Edit Data Pemain (Update)
+├── icon-football.svg     # Favicon Website
+├── index.php             # Halaman Utama (Dashboard, List Pemain, Sorting)
+└── README.md             # Dokumentasi proyek ini
+```
+
 | index.php  | create.php |
 |------------|------------|
 |<img width="1919" height="866" alt="image" src="https://github.com/user-attachments/assets/75e389b2-03c2-46a0-8960-2615ed2cdd43" /> |<img width="1919" height="860" alt="image" src="https://github.com/user-attachments/assets/a810e46a-1aa0-45e3-b126-1b5b4acfd462" />|
