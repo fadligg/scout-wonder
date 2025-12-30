@@ -24,6 +24,7 @@ Aplikasi web sederhana untuk memanajemen data pemain sepak bola muda (Wonderkids
 | index.php  | create.php |
 |------------|------------|
 |<img width="1919" height="866" alt="image" src="https://github.com/user-attachments/assets/75e389b2-03c2-46a0-8960-2615ed2cdd43" /> |<img width="1919" height="860" alt="image" src="https://github.com/user-attachments/assets/a810e46a-1aa0-45e3-b126-1b5b4acfd462" />|
+
 | detail.php | edit.php   |
 |------------|------------|
 |<img width="1919" height="848" alt="image" src="https://github.com/user-attachments/assets/539b96c7-9b50-4587-a0a7-444d07a57bff" />|<img width="1919" height="860" alt="image" src="https://github.com/user-attachments/assets/4546287d-9f50-4a91-b0cd-6c107773be41" />|
