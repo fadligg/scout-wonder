@@ -1,0 +1,25 @@
+CREATE DATABASE db_simplescout_v1;
+
+USE db_simplescout_v1;
+
+CREATE TABLE players (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama_pemain VARCHAR(100) NOT NULL,
+    posisi ENUM('Goalkeeper', 'Defender', 'Midfielder', 'Forward') NOT NULL,
+    klub VARCHAR(100) NOT NULL,
+    umur INT NOT NULL,
+    potensi INT CHECK (potensi BETWEEN 1 AND 100),
+    foto VARCHAR(255) DEFAULT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+ALTER TABLE players 
+ADD COLUMN speed INT DEFAULT 50,
+ADD COLUMN dribbling INT DEFAULT 50,
+ADD COLUMN passing INT DEFAULT 50,
+ADD COLUMN shooting INT DEFAULT 50,
+ADD COLUMN defending INT DEFAULT 50,
+ADD COLUMN physical INT DEFAULT 50,
+ADD COLUMN stamina INT DEFAULT 50;
+ADD COLUMN foot ENUM('Left', 'Right', 'Both') DEFAULT 'Right';
