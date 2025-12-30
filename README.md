@@ -30,6 +30,6 @@ Aplikasi web sederhana untuk memanajemen data pemain sepak bola muda (Wonderkids
 |<img width="1919" height="848" alt="image" src="https://github.com/user-attachments/assets/539b96c7-9b50-4587-a0a7-444d07a57bff" />|<img width="1919" height="860" alt="image" src="https://github.com/user-attachments/assets/4546287d-9f50-4a91-b0cd-6c107773be41" />|
 
 ---
-Dibuat sama akuu: Fadli Haidar Nugraha
-Mahasiswa Teknik Informatika UIN SGD Bandung
+Dibuat sama akuu: Fadli Haidar Nugraha <br>
+Mahasiswa Teknik Informatika UIN SGD Bandung <br>
 Made With Passion
